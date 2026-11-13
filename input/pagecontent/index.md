@@ -1,3 +1,12 @@
+<style>
+  /* Inhaltsverzeichnis oben rechts: hellpink statt gelb */
+  .markdown-toc,
+  div:has(> ul > li > a[href="#use-case"]) {
+    background-color: #ffe4ec !important;
+    border-color: #f4a6c0 !important;
+  }
+</style>
+
 ### Use Case
 
 Eine Hausarztpraxis erfasst die Arzneimittelallergien ihrer Patientinnen und Patienten strukturiert und codiert. Eine Notfallstation liest diese Daten später, zum Beispiel bevor sie ein Medikament verabreicht. Sie muss sich darauf verlassen können, dass jede Allergie den Auslöser, den klinischen Status und die Kritikalität enthält und von einer Ärztin oder einem Arzt erfasst wurde.
